@@ -1,0 +1,68 @@
+
+li, h1,h5{
+    color:white;
+}
+
+.log_panel{
+    background-color: white;
+}
+
+.log_panel_info{
+   padding-left: 0px;
+}
+
+.log_panel_info img{
+    position: relative;
+}
+
+.app-text{
+    position: absolute;
+    top:0px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.panel-body{
+    padding: 0px;
+}
+
+.panel{
+    border-radius: 0px;
+    border: 1px transparent;
+}
+
+#Form_access_email, #Form_access_password{
+    border-radius: 0px;
+    background-color: #e3e2e0;
+    height: 50px;
+}
+
+.btn-default{
+    height: 50px;
+    width: 130px;
+    background-color: #e3e2e0;
+    border-radius: 0px;
+    background-image: none;
+}
+
+.user_info{
+    margin-top:90px;
+    margin-left: 50px;
+}
+
+:-moz-placeholder,:-ms-input-placeholder,:-webkit-input-placeholder{
+    color:black;
+}
+
+.mi_footer{
+    margin-top:35px;
+}
+
+.valid_user{
+    margin-bottom: 20px;
+    position: absolute;
+}
+
+.valid_user p{
+    color: red;
+}

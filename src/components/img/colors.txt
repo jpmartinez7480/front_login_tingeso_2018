@@ -1,0 +1,14 @@
+gray: 189 189 189 0.30
+dark cyan: #0097A7
+teal: #009688
+light cyan: #B2EBF2
+text: #212121
+secondary text: #757575
+cyan: #00BCD4
+divider color: #BDBDBD
+text/icon: #FFFFFF
+orange: #FF9800
+dark oragen: #F57C00
+indigo: #3F51B5
+blue gray: #607D8B
+e3e2e0
