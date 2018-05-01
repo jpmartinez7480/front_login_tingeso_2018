@@ -8,9 +8,9 @@ import logo_usach from "../../img/logo.png";
 class Panel_responsive extends Component{
     constructor(props){
         super(props);
-        this.state = {mtop_res:window.innerHeight/4,valid : 1}
+        this.state = {mtop_res:window.innerHeight/6,valid : 1}
     }
-    
+
     render(){
         return(
             <Grid>
@@ -37,7 +37,7 @@ class Panel_responsive extends Component{
                             <center><Button bsStyle = "default" style = {{marginTop: 25 + 'px'}}>Ingresar</Button></center>
                         </Form>
                     </div>
-                </Col> 
+                </Col>
                 <Col sm = {1} xs = {1}></Col>
                 <div className = "footer_responsive">
                     <Grid>

@@ -1,14 +1,10 @@
-
-
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: verdana;
   background-image: url("components/img/background.jpg");
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', verdana;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
 }
-
-

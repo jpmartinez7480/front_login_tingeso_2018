@@ -33,16 +33,16 @@ class Panel_desktop extends Component{
                                 <Col lg = {6} md = {6}>
                                     <div className = "user_info">
                                         <div className = "valid_user">
-                                            <p>{this.state.valid == 0 ? 'Error: Usuario no valido.' : ' '}</p>
+                                            <p>{this.state.valid === 0 ? 'Error: Usuario no valido.' : ' '}</p>
                                         </div>
                                         <Form horizontal onSubmit = {this.handleSubmit}>
                                             <FormGroup controlId = "Form_access_email">
                                                 <Col sm = {10}>
                                                     <FormControl type = "email" placeholder = "Nombre usuario" />
-                                                </Col>    
+                                                </Col>
                                             </FormGroup>
                                             <FormGroup controlId = "Form_access_password">
-                                                <Col sm = {10}>    
+                                                <Col sm = {10}>
                                                     <FormControl type = "password" placeholder = "Contraseña" />
                                                 </Col>
                                             </FormGroup>

@@ -10,6 +10,9 @@ li, h1,h5{
 .log_panel_info{
    padding-left: 0px;
 }
+.log_panel_info h4{
+  padding-left: 10px;
+}
 
 .log_panel_info img{
     position: relative;
